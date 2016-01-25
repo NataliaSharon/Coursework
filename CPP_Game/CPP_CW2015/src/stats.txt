@@ -1,0 +1,6 @@
+Number of Lives:
+10
+Player 1 Final Lives:
+0
+Player 2 Final Lives:
+4

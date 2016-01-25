@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/albumArt"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:id="@+id/text1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/albumArt"
+        android:textColor="@color/textColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:id="@+id/text2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/text1"
+        android:layout_toRightOf="@+id/albumArt"
+        android:textColor="@color/textColor"/>
+
+    <!--- play and add to queue -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listPlay"
+        android:background="@drawable/selector"
+        android:src="@drawable/ic_play_arrow_white_36dp"
+        android:layout_alignTop="@+id/text1"
+        android:layout_toStartOf="@+id/listQueue"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:focusableInTouchMode="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector"
+        android:id="@+id/listQueue"
+        android:src="@drawable/ic_add_white_36dp"
+        android:layout_marginEnd="24dp"
+        android:layout_alignTop="@+id/listPlay"
+        android:layout_alignParentEnd="true"
+        android:focusableInTouchMode="true"/>
+
+
+</RelativeLayout>

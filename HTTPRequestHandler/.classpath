@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/junit/junit/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/junit/junit/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/APRCW1Files/RequiredFiles/Libraries/httpclient-4.3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/APRCW1Files/RequiredFiles/Libraries/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/APRCW1Files/RequiredFiles/Libraries/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/APRCW1Files/RequiredFiles/Libraries/fluent-hc-4.3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/APRCW1Files/RequiredFiles/Libraries/httpclient-cache-4.3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/APRCW1Files/RequiredFiles/Libraries/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/NAT/Documents/Computer_Science/JAVA/APRCW1Files/RequiredFiles/Libraries/httpmime-4.3.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
